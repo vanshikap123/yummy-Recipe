@@ -1,0 +1,159 @@
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.background {
+    background-image: url('https://img.freepik.com/premium-photo/ingredients-homemade-pizza-white-wooden-background_35641-4026.jpg?w=996');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 90px;
+}
+
+ol li {
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+.boxes {
+    background-image: linear-gradient(rgba(216, 213, 213, 0.32), rgba(15, 15, 15, 0.187)), url('https://img.freepik.com/premium-photo/top-view-various-cooking-ingredients-spices-wooden-table-with-blank-paper_124507-285337.jpg?w=360');
+    background-size: cover;
+}
+
+.box1 {
+    background: linear-gradient(rgba(235, 231, 231, 0.598), rgba(184, 169, 169, 0.555));
+    border-right: 2px solid#fff;
+}
+
+.box {
+    background: linear-gradient(rgba(235, 231, 231, 0.598), rgba(184, 169, 169, 0.555));
+}
+
+.underline {
+    border-bottom: 2px solid #fff;
+}
+
+.tag1 {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #faf6f6;
+    background-color: rgb(7, 7, 7);
+    width: 160px;
+    margin: auto;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px 6px #f2ce61;
+    margin-top: 10px;
+}
+
+.tag1:hover {
+    color: #000;
+    background-color: rgb(244, 230, 230);
+    box-shadow: 0px 0px 5px 6px #1d1d1d;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.imge {
+    height: 300px;
+}
+
+.divider {
+    width: 150px;
+    height: 4px;
+    background-color: #141310;
+    margin: auto;
+    position: relative;
+}
+
+.divider1 {
+    width: 60px;
+    height: 10px;
+    background-color: #f8680e;
+    position: absolute;
+    top: 111.2%;
+    left: 47.8%;
+}
+
+.center {
+    width: 490px;
+    height: 300px;
+    padding: 30px;
+    line-height: 40px;
+    margin: auto;
+    font-style: oblique;
+    color: #fff;
+    border-radius: 40px 0px 40px;
+    box-shadow: 6px 6px 40px #f12d5bf7;
+    color: darkgreen;
+}
+
+.btnnn {
+    padding: 5px 20px;
+    margin-left: 140px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 6px 6px 40px#fd0404;
+    background-image: conic-gradient(rgba(164, 164, 240, 0.79), rgb(248, 248, 181));
+}
+
+.btnnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.hover1:hover {
+    background-color: rgba(152, 248, 248, 0.758);
+    border: 3px dotted #038c6cec
+}
+
+.button {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:400px) {
+    .center {
+        width: 350px;
+        height: 480px;
+    }
+    .btnnn {
+        margin-left: 100px;
+    }
+    .background {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .center {
+        width: 350px;
+        height: 480px;
+    }
+    .btnnn {
+        margin-left: 90px;
+    }
+    .background {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .center {
+        width: 500px;
+        height: 430px;
+    }
+    .btnnn {
+        margin-left: 150px;
+    }
+}
