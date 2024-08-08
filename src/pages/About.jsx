@@ -3,9 +3,8 @@ const About=()=>{
        <div>
         <h1 className="text-center mt-5 ">About</h1>
         <div className="divider"></div>
-        <div className="divider1"></div>
 
-          <div className="row w-75 m-auto my-5 shadow-lg p-5 rounded">
+          <div className="row w-75 m-auto my-5 shadow-lg rounded">
             <div className="col-md-6  d-flex m-auto shadow-lg">
               <img src="https://cdn.dummyjson.com/recipe-images/13.webp" alt="" srcset="" className="w-100 m-auto imge" /></div>
             <div className="col-md-6 ">
